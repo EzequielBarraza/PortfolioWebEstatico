@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Mi portfolio web</title>
+  <script type="text/javascript" src="/app.js"></script>
+  <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6864683821.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class="Item1"><img class="logoAP" src="APLogo.png" alt="argpprod"></div>
+        <div class="flex-container">
+          <div><a href="https://www.facebook.com/eze132" target="_blank"><i class="fab fa-facebook-f"></i></div>
+          <div><a href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></div>
+          <div> <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+              data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" ;>
+            <div class="navbar-nav" ;>
+              <form action="action_page.php" method="post">
+                <div class="imgcontainer"></div>
+                <!-- Button to open the modal login form -->
+                <button onclick="document.getElementById('id01').style.display='block'"><strong>Login</strong></button>
+                <!-- The Modal -->
+                <div id="id01" class="modal">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+                  <!-- Modal Content -->
+                  <form class="modal-content animate" action="/action_page.php">
+                    <div class="imgcontainer">
+                      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                    </div>
+                    <div class="container">
+                      <label for="uname"><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                      <button type="submit"><strong>Login</strong></button>
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </label>
+                    </div>
+                    <div class="container" style="background-color:#f1f1f1">
+                      <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                        class="cancelbtn">Cancel</button>
+                      <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                  </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="container-flex">
+        <div class="item1"><img src="logo5.jpg" alt="Fondo Portfolio"> <img></div>
+        
+        <div class="centrado"><h1>Ezequiel Barraza</h1></div>
+      </div>
+  </header>
+  <nav">
+    <div>
+      <p>Primera Sección</p>
+      </nav>
+      <article>
+        <ol type="1">
+          <li>Primera Sección</li>
+          <li>Segunda Sección</li>
+        </ol>
+      </article>
+      <article>
+        <button>Agregar</button>
+    </div>
+    </article>
+    </section>
+    <section>
+
+
+
+
+    </section>
+    <footer class="Footer">
+      <p><strong>Proyectos</strong></p>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="dist/bootstrap/js/bootstrap.esm.min.js"></script>
+</body>
+
+</html>
